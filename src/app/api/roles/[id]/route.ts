@@ -1,8 +1,6 @@
 import { prisma } from '@/lib/prisma';
 import { NextResponse } from 'next/server';
-import { Role } from '@/app/interfaces/roles/role.interface';
-import { ApiResponse } from '@/app/interfaces/response/api-response.interface';
-import { ApiError } from '@/app/interfaces/error/error.interface';
+
 
 export async function DELETE(
   _req: Request,
